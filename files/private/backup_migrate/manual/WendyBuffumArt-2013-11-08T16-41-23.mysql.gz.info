@@ -1,0 +1,8 @@
+filename = "WendyBuffumArt-2013-11-08T16-41-23"
+description = ""
+datestamp = "1383957684"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.16"
+sites[0][name] = "Wendy Buffum Art"
+sites[0][url] = "http://127.0.0.1:10088/"

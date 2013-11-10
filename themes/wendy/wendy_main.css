@@ -1,0 +1,422 @@
+
+/**
+ * @file
+ *
+ * art_main.css - Theme for www.mccauleygallery.com
+ *
+ */
+
+
+/* Include padding within the width, instead of in-addition */ 
+ * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Set up the site for small devices like phones in portrait mode */
+/* Designed to look good between 300px and 400px									*/
+
+html {
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+body {
+ margin:0 auto;
+ padding:0
+ text-align:center;
+ width:100%;
+ font-size:14px;
+ max-width:960px;
+}
+
+#page-wrapper {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+	min-width:290px;
+}
+
+#header,
+.region-header {
+	float:left;
+	width:100%;
+	position:relative;
+}
+
+#sidebar-second {
+	display:none;
+}
+
+#main-wrapper {
+	float:left;
+	width:100%;
+}
+
+.front #main #content h1 {
+	display:none;
+}
+/* Logo */
+
+#block-block-1 {
+	float:left;
+	width:100%;
+	margin: 5px 0;
+	background-color:#b4965f;
+	padding:5px 0 5px 5px;;
+}
+
+h1.top-logo {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:30px;
+	font-style:italic;
+	margin:0;
+	padding:0;
+	line-height:1.1em;
+	color:#3c3026;
+}
+
+h3.top-logo {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:10px;
+	margin:1px 0 0 0;
+	color:#3c3026;
+}
+
+
+/* Main Menu and Galleries Menu*/
+
+#block-system-main-menu {
+	display:none;
+}
+
+#block-menu-block-1,
+#block-menu-block-2 {
+	float:left;
+	width:100%;
+	margin-top:2px;
+}
+
+#block-menu-block-1 ul,
+#block-menu-block-2 ul {
+  float:left;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+#block-menu-block-1 ul li,
+#block-menu-block-2 ul li {
+	list-style-image:none;
+	list-style-type:none;
+	float:left;
+	width:100%;
+    text-align:center;
+	padding:0;
+	font-weight:bold;
+	background-color:#204365;
+	margin:.5% 0;
+}
+
+#block-menu-block-1 ul li {
+	background-color:#827876;
+}
+
+#block-menu-block-1 ul li a,
+#block-menu-block-2 ul li a {
+	color:white;
+	line-height:40px;
+	font-size:15px;
+	float:left;
+	width:100%;
+}
+
+#block-system-main-menu ul li ul {
+	display:none;
+}
+
+/* Home Page Image Rotator */
+
+#block-block-2 {
+	float:left;
+	width:100%;
+	margin-top:3px;
+}
+
+#block-views-gallery-rotator-block {
+	position:absolute;
+	top:74px;
+	float:left;
+	width:100%;
+}
+
+#block-block-2 img {
+	max-width:100%;
+	height:auto;
+}
+
+.view-gallery-rotator {
+	float:left;
+	width:100%;
+}
+
+.view-gallery-rotator img {
+	float:left;
+	max-width:100%;
+	height:auto;
+}
+.views-slideshow-cycle-main-frame {
+	float:left;
+	width:100%;
+}
+
+.views-slideshow-cycle-main-frame-row {
+	width:100%;
+}
+
+
+/* Galleries Page */
+
+#block-system-main .node-art-gallery {
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+
+.node-type-art-gallery h1#page-title {
+	display:none;
+}
+
+.field-name-field-works .node-artwork {
+	margin-bottom:10px;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+.field-name-field-works .node-artwork h2 {
+	margin:0;
+	font-size:12px;
+	width:100%;
+	text-align:center;
+	
+}
+
+.field-name-field-works .node-artwork h2 a {
+  color:#3c3026;
+}
+
+.field-name-field-works .node-artwork img {
+	width:100%;
+	max-width:480px;
+	height:auto;
+}
+
+
+/* Information Pages */
+
+.node-type-page #main-wrapper {
+	background-color:#d7b997;
+}
+
+.front #main-wrapper #main {
+	float:left;
+	background-color:white;
+	padding:20px 10px;
+}
+
+.node-type-page #main-wrapper #main {
+	padding:20px 10px;
+}
+
+.node-type-page #main-wrapper #main h1#page-title {
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	float:left;
+	width:100%;
+	color:#3c3026;
+	border-bottom:1px dotted #b4965f;
+}
+
+.node-type-page #main-wrapper #main ul {
+	float:left;
+	margin:0;
+}
+
+.node-type-page #main-wrapper #main ul li{
+	float:left;
+	margin-bottom:10px;
+}
+
+.node-type-page #main-wrapper #main a {
+	color:black;
+	text-decoration:underline;
+}
+
+.node-type-page #main-wrapper #main  {
+	padding:0 20px 0 20px;
+}
+
+.node-type-page #main-wrapper #main #content .field-name-body{
+	float:left;
+	margin-top:10px;
+}
+
+.node-type-page #main-wrapper #main #content .field-name-body img {
+	width:auto !important;
+	height:auto !important;
+	max-width:100% !important;
+}
+
+@media screen and (min-width:480px) {
+	
+#block-system-main .node-art-gallery {
+	width:101%;
+	position:relative;
+	left:-1%;
+}	
+	
+.field-name-field-works .node-artwork {
+	width:49%;
+}
+
+.field-name-field-works .node-artwork {
+	margin-left:1%;
+}
+
+
+@media screen and (min-width:700px) {
+
+/* Add the photo sidebar on info pages */
+
+.one-sidebar #main-wrapper #sidebar-second {
+	display:block;
+	float:right;
+	width:40%;
+	padding-bottom:20px;
+}
+.one-sidebar #main-wrapper #sidebar-second #block-views-gallery-rotator-block-1 {
+	float:left;
+	width:100%;
+	margin-top:55px;
+}
+
+.node-type-page .view-gallery-rotator .views-row {
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+
+.one-sidebar #main-wrapper #content {
+	float:left;
+	width:60%;
+	position:relative;
+	padding-right:20px;
+}
+
+.node-type-page #main-wrapper #main h1#page-title {
+	width:166.666666%;
+}
+
+/* Logo */
+h1.top-logo {
+	font-size:34px;
+}
+
+h3.top-logo {
+	font-size:12px;
+}
+
+
+/* Redo main menu at top of picture rotation */
+
+#block-menu-block-2 {
+	display:none;
+}
+
+#block-system-main-menu {
+	display:block;
+}
+
+#block-system-main-menu {
+	float:none;
+	width:65%;
+	margin-top:0;
+	position:absolute;
+	right:0;
+}
+
+#block-system-main-menu ul {
+  float:right;
+  width:auto;
+  padding:0;
+  margin:0;
+}
+	
+#block-system-main-menu ul li {
+	list-style-image:none;
+	list-style-type:none;
+	float:left;
+	width:auto;
+    text-align:center;
+	padding:0;
+	font-weight:bold;
+	background-color:inherit;
+	margin:.5% 0;
+}
+
+#block-system-main-menu ul li a {
+	line-height:38px;
+	font-weight:400;
+	color:#3c3026;
+	width:auto;
+	padding:0 10px;
+}
+
+/* Reallign galleries menu to horizontal */
+
+#block-menu-block-1 {
+	margin-top:0;
+}
+
+
+#block-menu-block-1 ul li {
+	width:32.6666666%;
+	margin-right:1%;
+}
+
+#block-menu-block-1 ul li.last {
+	margin-right:0;
+}
+
+
+#block-menu-block-1 ul li a,
+#block-menu-block-2 ul li a {
+	color:white;
+	line-height:40px;
+	font-size:15px;
+	float:left;
+	width:100%;
+}
+
+.field-name-field-works .node-artwork {
+	width:24%;
+}
+
+.page-node-12 .field-name-field-works .node-artwork {
+  width:100%;
+}
+
+
+}
+
+@media screen and (min-width:920px) {
+
+#block-system-main-menu ul li a {
+	padding:0 25px;
+}
+}
+	
