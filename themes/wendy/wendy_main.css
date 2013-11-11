@@ -266,9 +266,7 @@ h3.top-logo {
 }
 
 .node-type-page #main-wrapper #main #content .field-name-body img {
-	width:auto !important;
-	height:auto !important;
-	max-width:100% !important;
+
 }
 
 @media screen and (min-width:480px) {
@@ -384,7 +382,7 @@ h3.top-logo {
 
 
 #block-menu-block-1 ul li {
-	width:32.6666666%;
+	width:24.25%;
 	margin-right:1%;
 }
 
@@ -402,13 +400,23 @@ h3.top-logo {
 	width:100%;
 }
 
-.field-name-field-works .node-artwork {
+.columns-1 .field-name-field-works .node-artwork {
+  width:100%;
+}
+
+.columns-2 .field-name-field-works .node-artwork {
+  width:49%;
+}
+
+.columns-3 .field-name-field-works .node-artwork {
+  width:32.33%;
+}
+
+.columns-4 .field-name-field-works .node-artwork {
 	width:24%;
 }
 
-.page-node-12 .field-name-field-works .node-artwork {
-  width:100%;
-}
+
 
 
 }
