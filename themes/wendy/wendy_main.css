@@ -221,6 +221,11 @@ h3.top-logo {
 	background-color:#d7b997;
 }
 
+.front #main-wrapper {
+	background-color:inherit;
+}
+
+
 .front #main-wrapper #main {
 	float:left;
 	background-color:white;
@@ -256,8 +261,10 @@ h3.top-logo {
 	text-decoration:underline;
 }
 
-.node-type-page #main-wrapper #main  {
-	padding:0 20px 0 20px;
+.node-type-page #main-wrapper .node-page .field-name-body  {
+	float:left;
+	width:100%;
+    padding:0 20px 0 20px;
 }
 
 .node-type-page #main-wrapper #main #content .field-name-body{
