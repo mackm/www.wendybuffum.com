@@ -201,6 +201,8 @@ h3.top-logo {
 	font-size:12px;
 	width:100%;
 	text-align:center;
+	float:left;
+	margin-top:4px;
 	
 }
 
@@ -230,6 +232,7 @@ h3.top-logo {
 	float:left;
 	background-color:white;
 	padding:20px 10px;
+	width:100%;
 }
 
 .node-type-page #main-wrapper #main {
@@ -272,8 +275,43 @@ h3.top-logo {
 	margin-top:10px;
 }
 
-.node-type-page #main-wrapper #main #content .field-name-body img {
+.node-type-page #main-wrapper .field-name-body img {
+  max-width:100%;
+  height:auto;
+}
 
+/* Individual artwork pages */
+
+.node-artwork {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.node-artwork .field-name-field-art-image img {
+	float:left;
+	width:100%;
+}
+
+.node-art-gallery .node-artwork .field-name-field-art-image img {
+	float:none;
+}
+
+.node-artwork .field {
+	padding-top:2px;
+}
+
+.node-artwork .field-name-field-height {
+	float:left;
+}
+
+.node-artwork .field-name-field-width {
+	float:left;
+	clear:right;
+}
+.node-artwork .field-name-field-medium {
+	float:left;
+	width:100%;
 }
 
 @media screen and (min-width:480px) {
@@ -291,6 +329,7 @@ h3.top-logo {
 .field-name-field-works .node-artwork {
 	margin-left:1%;
 }
+
 }
 
 
