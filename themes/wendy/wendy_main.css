@@ -228,15 +228,17 @@ h3.top-logo {
 }
 
 
-.front #main-wrapper #main {
-	float:left;
-	background-color:white;
-	padding:20px 10px;
-	width:100%;
-}
+
 
 .node-type-page #main-wrapper #main {
 	padding:20px 10px;
+}
+
+.front #main-wrapper #main {
+	float:left;
+	background-color:white;
+	padding:5px 10px;
+	width:100%;
 }
 
 .node-type-page #main-wrapper #main h1#page-title {
@@ -314,6 +316,42 @@ h3.top-logo {
 	width:100%;
 }
 
+/* Footer */
+
+.region-footer {
+	float:left;
+	width:100%;
+	border-top:1px solid #B4965F;
+	margin-top:5px;
+	padding-top:5px;
+    font-size:10px;
+	opacity:.5;
+}
+
+#represented {
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+.region-footer .line {
+	float:left;
+	width:100%;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.region-footer a {
+	color:#204365;
+}
+
+#copyright {
+	float:left;
+}
+
+#siteby {
+	float:right;
+}
+
 @media screen and (min-width:480px) {
 	
 #block-system-main .node-art-gallery {
@@ -328,6 +366,11 @@ h3.top-logo {
 
 .field-name-field-works .node-artwork {
 	margin-left:1%;
+}
+
+.region-footer {
+	padding-top:10px;
+    font-size:12px;
 }
 
 }
